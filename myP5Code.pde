@@ -3,6 +3,10 @@ setup = function() {
 };
 
 var answer = 1;
+var answer = 2;
+var answer = 3;
+var answer = 4;
+var answer = 5;
 
 draw = function(){
   background(100,100,100);
@@ -13,9 +17,21 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("👎🏻", 176, 200); 
   }
+  if (answer == 2) {
+    text("nah",176,200);
+  }
+  if (answer == 3) {
+    text("yes",176,200);
+  }
+  if (answer == 4) {
+    text("maybe",176,200);
+  }
+  if (answer == 5) {
+    text("possibly",176,200);
+  }
+
   
 };
 
